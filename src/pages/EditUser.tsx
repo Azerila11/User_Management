@@ -5,7 +5,6 @@ import { useAuth } from "../context/AuthContext";
 import { getUser, updateUser } from "../api/api";
 import { UserFormData } from "../types/type";
 import { toast } from "react-toastify";
-import ButtonWithLoader from "../components/ButtonWithLoader";
 import PageLoader from "../components/PageLoader";
 
 const EditUser = () => {
